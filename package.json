@@ -9,11 +9,13 @@
     },
     "scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "browserify -t reactify src/* -o index.js",
 	"watch": "watchify -t reactify src/* -o index.js"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+	"browserify": "8.1.x",
 	"watchify": "^1.0.2",
 	"react-tools": "^0.12.1",
 	"reactify": "^0.17.1"
