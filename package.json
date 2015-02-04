@@ -1,0 +1,21 @@
+{
+    "name": "reactjs-starter",
+    "version": "0.0.0",
+    "description": "Basic React.js project",
+    "main": "index.js",
+    "dependencies": {
+	"domready": "^1.0.7",
+	"react": "^0.12.1"
+    },
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"watch": "watchify -t reactify src/* -o index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+	"watchify": "^1.0.2",
+	"react-tools": "^0.12.1",
+	"reactify": "^0.17.1"
+    }
+}
